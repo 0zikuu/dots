@@ -1,6 +1,9 @@
 // Zed settings
 {
+  "on_last_window_closed": "platform_default",
+  "when_closing_with_no_tabs": "platform_default",
   "session": {
+    "restore_unsaved_buffers": true,
     "trust_all_worktrees": true
   },
   "telemetry": {
@@ -47,7 +50,7 @@
   },
   "format_on_save": "off",
   "vim_mode": true,
-  "theme": "Base16 Colors",
+  "theme": "Noctalia Dark",
   "ui_font_size": 16.5,
   "ui_font_weight": 600.0,
   "ui_font_family": "Space Grotesk",

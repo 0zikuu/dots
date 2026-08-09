@@ -7,5 +7,5 @@ sort_dir_first = true
 
 [opener]
 play = [{ run = 'mpv "$@"', orphan = true, for = "unix" }]
-edit = [{ run = 'micro "$@"', block = true, for = "unix" }]
+edit = [{ run = 'zed "$@"', block = true, for = "unix" }]
 open = [{ run = 'xdg-open "$@"', desc = "Open" }]
