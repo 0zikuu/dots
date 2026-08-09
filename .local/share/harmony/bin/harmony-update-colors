@@ -1,0 +1,10 @@
+#!/bin/bash
+source harmony-color-codes
+
+/usr/bin/wal -nst -i ~/.local/share/wallpapers/wallpaper.png --cols16
+/usr/bin/flavours generate dark ~/.local/share/wallpapers/wallpaper.png -s match-wallpaper > /dev/null 2>&1
+/usr/bin/flavours generate dark ~/.local/share/wallpapers/wallpaper.jpg -s match-wallpaper > /dev/null 2>&1
+
+harmony-reload walker
+
+sleep 0.5
