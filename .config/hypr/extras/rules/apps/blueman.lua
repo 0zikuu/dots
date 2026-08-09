@@ -1,0 +1,27 @@
+hl.window_rule({
+    match = {
+        class = "^(nm-connection-editor)$",
+    },
+    float = true,
+})
+
+hl.window_rule({
+    match = {
+        class = "^(blueman-.*)$",
+    },
+    float = true,
+})
+
+hl.window_rule({
+    match = {
+        class = "^(nm-connection-editor)$",
+    },
+    pin = true,
+})
+
+hl.window_rule({
+    match = {
+        class = "^(blueman-.*)$",
+    },
+    pin = true,
+})

@@ -1,0 +1,11 @@
+hl.window_rule({
+    match = {
+        title = "^(Network Connections)$",
+    },
+    opacity = "1.0 1.0",
+    float = true,
+    size = "335 355",
+    move = "1577 669",
+})
+
+-- windowrule = match:class ^(nm-connection-editor)$, decorate off

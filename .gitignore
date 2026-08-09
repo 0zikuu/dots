@@ -1,0 +1,14 @@
+# Caches
+.cache/
+*.cache
+
+# Temporales
+*.tmp
+*.log
+
+# Backups
+*.bak
+*.swp
+
+# Sistema
+.DS_Store

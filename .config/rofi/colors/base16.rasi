@@ -1,0 +1,18 @@
+/**
+ *
+ * Theme Author: @bypass_
+ * Github: imbypass
+ * Colors: Marquina Black
+ * Colors Author: Bepi (@bypass)
+ *
+ **/
+
+* {
+    background:     #0a0a0cFF;
+    background-alt: #121215FF;
+    foreground:     #b2b5b3FF;
+    selected:       #1f1f21FF;
+    active:         #e0af68FF;
+    urgent:         #f7768eFF;
+    border-color:   #1f1f21FF;
+}

@@ -1,0 +1,6 @@
+hl.window_rule({
+    match = {
+        class = "^(page.kramo.Cartridges)$",
+    },
+    min_size = "1 1",
+})

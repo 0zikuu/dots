@@ -1,0 +1,16 @@
+hl.window_rule({
+    match = {
+        class = "^(cstrike_linux64)$",
+    },
+    immediate = true,
+    render_unfocused = true,
+    content = "game",
+})
+hl.window_rule({
+    match = {
+        class = "^(cs2)$",
+    },
+    immediate = true,
+    render_unfocused = true,
+    content = "game",
+})

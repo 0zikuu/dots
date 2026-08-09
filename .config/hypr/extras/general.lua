@@ -1,0 +1,9 @@
+hl.config({
+    debug = {
+        disable_logs = true,
+        enable_stdout_logs = true,
+    },
+    ecosystem = {
+        no_update_news = true,
+    },
+})

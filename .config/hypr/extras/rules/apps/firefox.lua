@@ -1,0 +1,8 @@
+hl.window_rule({
+    match = {
+        class = "^(firefox)$",
+    },
+    render_unfocused = true,
+    immediate = true,
+    min_size = "800 600",
+})

@@ -1,0 +1,21 @@
+hl.window_rule({
+    match = {
+        class = "^(Windscribe)$",
+    },
+    float = true,
+    min_size = "1 1",
+    opacity = "1.0 1.0",
+    size = "350 240",
+    move = "1560 51",
+    border_size = 0,
+    immediate = true,
+    rounding = 0,
+})
+
+-- # windowrule =  decorate off
+hl.window_rule({
+    match = {
+        class = "^(Windscribe)$",
+    },
+    size = "350 240",
+})

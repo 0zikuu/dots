@@ -1,0 +1,47 @@
+{
+  "general": {
+    "accentColor": "DEFAULT_ACCENT_COLOR",
+    "checkForMillenniumUpdates": true,
+    "checkForPluginAndThemeUpdates": true,
+    "injectCSS": true,
+    "injectJavascript": true,
+    "millenniumUpdateChannel": "stable",
+    "onMillenniumUpdate": 1,
+    "shouldShowThemePluginUpdateNotifications": false
+  },
+  "misc": {
+    "hasShownWelcomeModal": true
+  },
+  "network": {
+    "proxy": "",
+    "proxyPassword": "",
+    "proxyUsername": ""
+  },
+  "notifications": {
+    "showNotifications": true,
+    "showPluginNotifications": true,
+    "showUpdateNotifications": true
+  },
+  "themes": {
+    "activeTheme": "Adwaita-for-Steam",
+    "allowedScripts": true,
+    "allowedStyles": true,
+    "conditions": {
+      "Adwaita-for-Steam": {
+        "Accent color": "System",
+        "Color scheme": "Dark",
+        "Color theme": "Metro",
+        "Font": "Adwaita",
+        "Hide games list": "no",
+        "Login QR code": "Show",
+        "Pointer cursor": "no",
+        "Rounded corners": "yes",
+        "Show URL": "no",
+        "Square icons in game details": "yes",
+        "What's New shelf": "yes",
+        "Window controls layout": "Adwaita",
+        "Window controls theme": "Adwaita (GNOME)"
+      }
+    }
+  }
+}

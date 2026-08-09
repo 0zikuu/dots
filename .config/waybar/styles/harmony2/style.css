@@ -1,0 +1,281 @@
+
+
+* {
+    transition: all 0.3s ease;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "SF Pro Rounded";
+}
+
+window {
+    color: @base05;
+    background: @base00;
+    border-radius: 0;
+    border-top: 2px solid @base01;
+}
+
+tooltip {
+    color: @base06;
+    background: @base00;
+    border: 1px solid @base02;
+    border-radius: 8px;
+}
+
+menu {
+    /* background: transparent; */
+    background-color: @base02;
+    border-radius: 12px;
+    border: 1px solid @base00;
+    color: @base05;
+    padding: 8px;
+}
+menuitem {
+    border-radius: 8px;
+    padding: 7px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 8px;
+}
+menuitem:hover {
+    background: @base01;
+    color: @base05;
+}
+
+#clock,
+#battery,
+#network,
+#bluetooth,
+#cpu,
+#memory,
+#pulseaudio,
+#pulseaudio.sink,
+#pulseaudio.source,
+#pulseaudio.microphone,
+#custom-weather,
+#custom-logo,
+#custom-spotify,
+#custom-expose,
+#custom-notifications,
+#custom-glorious,
+#custom-pacman,
+#custom-power,
+#custom-systray,
+#workspaces button,
+#tray {
+    background: transparent;
+    color: @base05;
+    text-shadow: 0px 0px 4px rgba(1, 1, 1, 0.3);
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 3px;
+}
+
+#taskbar button {
+    background: transparent;
+    color: @base06;
+    margin: 2px;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+}
+
+/* ===[ SYSTEM TRAY ]=== */
+#tray {
+    padding-right: 6px;
+}
+
+/* ===[ BATTERY ]=== */
+#battery {
+    font-size: 13px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+/* ===[ NETWORK ]=== */
+#network {
+    font-size: 13px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+#network:hover {
+    color: @base06;
+}
+
+/* ===[ BLUETOOTH ]=== */
+#bluetooth {
+    font-size: 13px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+#bluetooth:hover {
+    color: @base06;
+}
+
+/* ===[ CLOCK ]=== */
+#clock {
+    margin-left: 4px;
+    margin-right: 16px;
+    font-size: 12px;
+    color: @base07;
+}
+
+/* ===[ PULSEAUDIO ]=== */
+#pulseaudio {
+    font-size: 13.75px;
+    border: none;
+}
+#pulseaudio:hover {
+    color: @base06;
+}
+#pulseaudio.sink-muted,
+#pulseaudio.source-muted {
+    color: @base08;
+}
+
+/* ===[ WORKSPACES ]=== */
+/*#workspaces {
+    transition: none;
+    font-size: 12px;
+    margin-right: 6px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: -4px;
+    padding: 0;
+    color: @base07;
+}
+#workspaces button {
+    border-radius: 0px;
+    margin: 8px;
+    padding: 0;
+    border: 0px;
+    color: @base02;
+}
+#workspaces button:hover {
+    color: @base09;
+}
+#workspaces button.active {
+    color: @base07;
+}
+#workspaces button.urgent {
+    color: @base0A;
+}*/
+
+#workspaces {
+    background: transparent;
+    margin: 3px 0px;
+    padding: 15px 6px;
+    margin-left: 10px;
+    margin-top: 4px;
+    border-radius: 16px;
+    border: solid 0px @base03;
+}
+
+#workspaces button {
+    min-width: 6px;
+    min-height: 4px;
+    padding: 0;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: @base03;
+    color: @base03;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active,
+#workspaces button:hover {
+    color: @base05;
+    background-color: @base05;
+    border-radius: 20px;
+    min-width: 25px;
+    transition: all 0.3s ease-in-out;
+}
+#workspaces button.empty {
+    opacity: 0.35;
+}
+
+#workspaces button label {
+    font-size: 0px;
+}
+
+/* ===[ CUSTOM MODULES ]=== */
+#cava {
+    margin-left: 100px;
+    margin-bottom: -8px;
+    color: @base07;
+    transition: all 0.3s ease;
+}
+#cava.silent {
+    color: @base00;
+    transition: all 0.3s ease;
+}
+
+/* =========[ CUSTOM MODULES ]========= */
+
+/* ===[ SYSTEM TRAY GROUP ]=== */
+#custom-tray {
+    font-size: 18px;
+    color: @base04;
+    margin-right: 12px;
+    margin-left: 0px;
+    margin-bottom: -2px;
+    font-size: 11px;
+}
+
+/* ===[ APPLICATIONS ICON ]=== */
+#custom-logo {
+    font-size: 28px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("/home/bypass/.local/share/harmony/logo.svg");
+    margin: 2px 3px 0px 18px;
+}
+
+/* ===[ USER MENU ]=== */
+#custom-power {
+    margin-right: 24px;
+    margin-left: 8px;
+    font-size: 13px;
+    color: @base05;
+}
+#custom-power:hover {
+    color: @base08;
+}
+
+/* ===[ EXPOSE BUTTON ]=== */
+#custom-expose {
+    margin-left: 0px;
+    margin-right: 12px;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: 13px;
+}
+#custom-expose:hover {
+    color: @base09;
+}
+
+/* ===[ SPOTIFY NOW PLAYING ]=== */
+#custom-spotify {
+    font-size: 13px;
+    margin-left: 0px;
+}
+
+/* ===[ GLORIOUS MODEL O- INDICATOR ]=== */
+#custom-glorious {
+    font-size: 12px;
+    margin-right: 12px;
+}
+#custom-glorious:hover {
+    color: @base06;
+}
+
+/* ===[ PACMAN UPDATE COUNTER ]=== */
+#custom-pacman {
+    color: @base0A;
+    font-size: 16px;
+    margin-bottom: 2px;
+}

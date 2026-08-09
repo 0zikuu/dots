@@ -1,0 +1,59 @@
+hl.window_rule({
+    match = {
+        class = "^(steam)$",
+    },
+    min_size = "1 1",
+    float = true,
+})
+
+hl.window_rule({
+    match = {
+        title = "^(Steam Big Picture Mode)$",
+        class = "^(steam)$",
+    },
+    fullscreen = true,
+})
+
+hl.window_rule({
+    match = {
+        title = "^(Friends List)$",
+    },
+    float = true,
+})
+
+hl.window_rule({
+    match = {
+        title = "^(Add Non-Steam Game)$",
+    },
+    float = true,
+})
+
+hl.window_rule({
+    match = {
+        title = "^(Friends List)$",
+    },
+    size = "300 700",
+})
+
+hl.window_rule({
+    match = {
+        class = "^(steam_app_0)$",
+    },
+    opacity = "1 1",
+})
+hl.window_rule({
+    match = {
+        class = "^(steam_app_.*)$",
+    },
+    opacity = "1 1",
+})
+
+hl.window_rule({
+    match = {
+        class = "*(steam)$",
+    },
+    immediate = true,
+    render_unfocused = true,
+    fullscreen = true,
+    content = "game",
+})

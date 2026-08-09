@@ -1,0 +1,66 @@
+// Zed settings
+{
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry"
+    }
+  },
+  "cli_default_open_behavior": "existing_window",
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "edit_predictions": {
+    "provider": "zed"
+  },
+  "icon_theme": "Zed (Default)",
+  "show_completions_on_input": false,
+  "language_servers": ["!eslint"],
+  "base_keymap": "Zed",
+  "agent": {
+    "dock": "right",
+    "tool_permissions": {
+      "default": "allow"
+    },
+    "default_model": {
+      "effort": "high",
+      "enable_thinking": true,
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-6"
+    }
+  },
+  "format_on_save": "off",
+  "vim_mode": true,
+  "theme": "Base16 Colors",
+  "ui_font_size": 16.5,
+  "ui_font_weight": 600.0,
+  "ui_font_family": "Space Grotesk",
+  "buffer_font_size": 13.0,
+  "buffer_font_weight": 600.0,
+  "buffer_font_family": "JetBrainsMono Nerd Font Propo",
+  "buffer_line_height": {
+    "custom": 1.525
+  },
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font",
+    "shell": {
+      "program": "/usr/bin/fish"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+-- Audacious Overrides
+hl.window_rule({
+    match = {
+        class = "^(Audacious)$",
+    },
+    pin = true,
+    float = true,
+    no_anim = true,
+    border_size = 0,
+    rounding = 0,
+})
+
+hl.window_rule({
+    match = {
+        initial_title = "^(Audacious Equalizer)$",
+    },
+    move = "85% 15.5%",
+})

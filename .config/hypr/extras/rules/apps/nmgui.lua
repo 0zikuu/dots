@@ -1,0 +1,9 @@
+hl.window_rule({
+    match = {
+        class = "^(com.network.manager)$",
+    },
+    opacity = "1.0 1.0",
+    float = true,
+    center = true,
+    size = "335 355",
+})

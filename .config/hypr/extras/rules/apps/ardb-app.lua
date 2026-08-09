@@ -1,0 +1,15 @@
+hl.window_rule({
+    match = {
+        class = "^(chrome-ardb.app__-Default)$",
+    },
+    float = true,
+    size = "1000 700",
+})
+
+hl.window_rule({
+    match = {
+        class = "^(chrome-arcraidersmaps.app__-Default)$",
+    },
+    float = true,
+    size = "1000 700",
+})

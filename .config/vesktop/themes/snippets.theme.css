@@ -1,0 +1,28 @@
+/**
+ * @name CSS Snippets
+ * @author @bypass_
+ * @authorLink https://github.com/imbypass
+ * @description A small set of client changes to clean up Discord UI
+ * @license MIT
+ * @version 0.1.1
+ * @authorId 148201667085598720
+ * @discord bypass_
+ **/
+@import url(./snippets/addfriends-button.css);
+@import url(./snippets/clean-chatbar.css);
+@import url(./snippets/clean-direct-messages.css);
+@import url(./snippets/clean-dm-categories.css);
+@import url(./snippets/clean-topbar.css);
+@import url(./snippets/clean-voice-buttons.css);
+@import url(./snippets/compact-member-list.css);
+@import url(./snippets/compact-search-box.css);
+@import url(./snippets/custom-is-typing.css);
+@import url(./snippets/disable-vc-animations.css);
+@import url(./snippets/fix-usrbg.css);
+@import url(./snippets/hide-blocked-messages.css);
+@import url(./snippets/hide-discover.css);
+@import url(./snippets/hide-new-messages-bar.css);
+@import url(./snippets/hide-social-links.css);
+/*@import url(./snippets/no-border-radius.css);*/
+@import url(./snippets/no-message-hover-emojis.css);
+/*@import url(./snippets/remove-gradient-glow.css);*/

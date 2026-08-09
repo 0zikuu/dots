@@ -1,0 +1,221 @@
+# Configuration for flavours
+
+shell = "fish -c '{}'"
+
+### HARMONY LOGO ###
+[[items]]
+file = "~/.local/share/harmony/logo.svg"
+template = "harmony"
+rewrite = true
+
+### PHOCUS GTK THEME ###
+[[items]]
+file = "~/.themes/phocus/scss/gtk-3.0/_base16.scss"
+template = "phocus"
+rewrite = true
+hook = "harmony-reload gtk"
+
+### GTK 4.0 THEME ###
+[[items]]
+#file = "~/.themes/phocus/gtk-4.0/gtk.css"
+file = "~/.config/gtk-4.0/gtk.css"
+template = "gtk4"
+rewrite = false
+start = "/* start colors */"
+end = "/* end colors */"
+hook = "harmony-reload gtk"
+
+### QT6 THEME ###
+[[items]]
+file = "~/.config/qt6ct/colors/base16.conf"
+template = "qt6ct"
+rewrite = true
+
+### VESKTOP ###
+[[items]]
+file = "~/.config/vesktop/settings/quickCss.css"
+template = "vesktop"
+rewrite = true
+
+### IGNIS ###
+[[items]]
+file = "~/.config/ignis/scss/base16.scss"
+template = "ignis"
+rewrite = true
+
+### IGNIS BORDERS ###
+[[items]]
+file = "~/.config/ignis/config.json"
+template = "ignis-border"
+rewrite = true
+hook = "harmony-reload ignis"
+
+### NCSPOT ###
+[[items]]
+file = "~/.config/ncspot/config.toml"
+template = "ncspot"
+rewrite = true
+
+### FIREFOX ###
+[[items]]
+file = "/home/bypass/.mozilla/firefox/li1xg7z9.default-release/chrome/base16.css"
+template = "firefox"
+rewrite = false
+start = "/* start colors */"
+end = "/* end colors */"
+
+### FZF ###
+[[items]]
+file = "~/.config/fish/conf.d/fzf.fish"
+template = "fzf"
+subtemplate = "base16-fish"
+rewrite = true
+
+### MPV ###
+[[items]]
+file = "~/.config/mpv/mpv.conf"
+template = "mpv"
+rewrite = false
+start = "# start colors"
+end = "# end colors"
+
+### STEAM ###
+[[items]]
+file = "~/.local/share/adwaita-steam/adwaita/colorthemes/base16/base16.css"
+template = "steam"
+rewrite = true
+hook = "harmony-reload steam"
+
+### ZED EDITOR ###
+[[items]]
+file = "~/.config/zed/themes/base16-flavours.json"
+template = "zed"
+rewrite = true
+
+### VS CODE - OSS ###
+[[items]]
+file = "~/.vscode-oss/extensions/tintedtheming.base16-tinted-themes-0.27.0-universal/themes/base16/base16-dynamic.json"
+template = "vscode"
+rewrite = true
+
+### HYPRLAND ###
+[[items]]
+file = "~/.config/hypr/extras/colors.conf"
+template = "hyprland"
+rewrite = true
+
+### MAKO DAEMON ###
+[[items]]
+file = "~/.config/mako/colors"
+template = "mako"
+rewrite = true
+hook = "harmony-reload mako"
+
+### WALKER ###
+[[items]]
+file = "~/.config/walker/themes/base16/colors.css"
+template = "walker"
+rewrite = false
+start = "/* start flavours */"
+end = "/* end flavours */"
+hook = "harmony-reload walker"
+
+### ROFI ###
+[[items]]
+file = "~/.config/rofi/colors/base16.rasi"
+template = "rofi"
+rewrite = true
+subtemplate = "colors"
+
+### WALKER ###
+[[items]]
+file = "~/.config/walker/themes/base16/colors.css"
+template = "walker"
+rewrite = false
+start = "/* start flavours */"
+end = "/* end flavours */"
+hook = "harmony-reload walker"
+
+### FOOT TERMINAL ###
+[[items]]
+file = "~/.config/foot/colors.ini"
+template = "foot"
+rewrite = true
+
+### GHOSTTY TERMINAL ###
+[[items]]
+file = "~/.config/ghostty/themes/base.conf"
+template = "ghostty"
+rewrite = true
+
+### TMUX ###
+[[items]]
+file = "~/.config/tmux/base16.conf"
+template = "tmux"
+subtemplate = "default"
+rewrite = true
+hook = "tmux source ~/.config/tmux/base16.conf"
+
+### FISH SHELL ###
+[[items]]
+file = "~/.config/fish/themes/base16.theme"
+template = "fish"
+rewrite = true
+
+### HELIX EDITOR ###
+[[items]]
+file = "~/.config/helix/themes/base16.toml"
+template = "helix"
+rewrite = true
+
+### MICRO EDITOR ###
+[[items]]
+file = "~/.config/micro/colorschemes/base16.micro"
+template = "micro"
+rewrite = true
+
+### SPOTIFY ###
+# [[items]]
+# file = "~/.config/spicetify/Themes/base16/color.ini"
+# template = "spotify"
+# rewrite = true
+# hook = "harmony-reload spotify"
+# light = false
+
+### NEOVIM ###
+[[items]]
+file = "~/.config/nvim/lua/config/base16.lua"
+template = "nvim"
+rewrite = false
+start = "-- start colors"
+end = "-- end colors"
+
+### SWAYIMG BACKGROUND ###
+[[items]]
+file = "~/.config/swayimg/config"
+template = "swayimg"
+rewrite = false
+start = "# Window background color (RGBA)"
+end = "# Background for transparent images (grid/RGBA)"
+
+### WAYBAR ###
+[[items]]
+file = "~/.config/waybar/base16.css"
+template = "waybar"
+rewrite = true
+hook = "sleep .5 &&  harmony-reload waybar"
+
+### CAVA ###
+[[items]]
+file = "~/.config/cava/config"
+template = "cava"
+rewrite = false
+start = "[color]"
+end = "[smoothing]"
+
+
+### MICRO EDITOR ###
+[[items]]
+file = "~/.cache/wal/schemes/flavours.json"
+template = "pywal"
+rewrite = true

@@ -1,0 +1,12 @@
+hl.window_rule({
+    match = {
+        class = "^(org.pulseaudio.pavucontrol)$",
+    },
+    size = "515 530",
+    float = true,
+    pin = true,
+    pseudo = true,
+})
+
+-- windowrule = plugin:hyprbars:bar_color $base01, class:^(org.pulseaudio.pavucontrol)$
+-- windowrule = bordercolor $base02 $base02, class:^(org.pulseaudio.pavucontrol)$

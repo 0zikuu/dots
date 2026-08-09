@@ -1,0 +1,5 @@
+/* Clean up the styling for the DM categores */
+[class^="headerText"] {
+    font-size: 12pt !important;
+    color: var(--channels-default) !important;
+}
