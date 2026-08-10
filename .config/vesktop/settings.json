@@ -12,7 +12,8 @@
     "hardwareAcceleration": true,
     "enableTaskbarFlashing": true,
     "staticTitle": true,
-    "customTitleBar": false,
+    "customTitleBar": true,
     "disableSmoothScroll": true,
-    "splashPixelated": false
+    "splashPixelated": false,
+    "autoStartMinimized": false
 }

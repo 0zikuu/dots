@@ -52,3 +52,7 @@ x-scheme-handler/discord-1296840202995896363=discord-1296840202995896363.desktop
 audio/mpeg=mpv.desktop
 audio/flac=mpv.desktop
 audio/x-wav=mpv.desktop
+x-scheme-handler/hydralauncher=hydralauncher.desktop
+x-scheme-handler/fdm=freedownloadmanager_fdm_up.desktop
+x-scheme-handler/magnet=freedownloadmanager_magnet_up.desktop
+application/x-bittorrent=freedownloadmanager_torrent.desktop

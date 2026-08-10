@@ -1,10 +1,202 @@
 // Zed settings
 {
-  "on_last_window_closed": "platform_default",
-  "when_closing_with_no_tabs": "platform_default",
+  "pane_split_direction_horizontal": "up",
+  "diagnostics_max_severity": "all",
+  "document_folding_ranges": "on",
+  "document_symbols": "on",
+  "markdown_preview": {
+    "limit_content_width": false
+  },
+  "extend_comment_on_newline": false,
+  "middle_click_paste": false,
+  "word_diff_enabled": false,
+  "tasks": {
+    "prefer_lsp": false,
+    "enabled": false
+  },
+  "code_lens": "on",
+  "inlay_hints": {
+    "show_other_hints": false,
+    "show_parameter_hints": false,
+    "show_type_hints": false,
+    "show_value_hints": false
+  },
+  "completion_menu_scrollbar": "auto",
+  "show_completion_documentation": false,
+  "show_whitespaces": "all",
+  "jsx_tag_auto_close": {
+    "enabled": false
+  },
+  "use_auto_surround": false,
+  "use_autoclose": false,
+  "use_on_type_format": false,
+  "ensure_final_newline_on_save": false,
+  "remove_trailing_whitespace_on_save": false,
+  "indent_guides": {
+    "enabled": false
+  },
+  "allow_rewrap": "anywhere",
+  "auto_indent": "none",
+  "auto_indent_on_paste": false,
+  "vim": {
+    "cursor_shape": {
+      "visual": "bar",
+      "replace": "bar",
+      "insert": "bar",
+      "normal": "bar"
+    },
+    "use_regex_search": false,
+    "use_system_clipboard": "never",
+    "default_mode": "insert"
+  },
+  "toolbar": {
+    "agent_review": false,
+    "selections_menu": false,
+    "quick_actions": false,
+    "breadcrumbs": false
+  },
+  "minimap": {
+    "thumb_border": "full",
+    "thumb": "hover",
+    "display_in": "all_editors",
+    "show": "auto"
+  },
+  "scrollbar": {
+    "axes": {
+      "vertical": false,
+      "horizontal": false
+    },
+    "git_diff": false,
+    "cursors": false,
+    "search_results": false,
+    "selected_symbol": false,
+    "selected_text": false
+  },
+  "inline_code_actions": false,
+  "relative_line_numbers": "enabled",
+  "gutter": {
+    "folds": false,
+    "bookmarks": false,
+    "breakpoints": false,
+    "runnables": false,
+    "line_numbers": false
+  },
+  "drag_and_drop_selection": {
+    "enabled": false
+  },
+  "hover_popover_sticky": false,
+  "hover_popover_enabled": false,
+  "snippet_sort_order": "top",
+  "scroll_beyond_last_line": "off",
+  "double_click_in_multibuffer": "open",
+  "show_wrap_guides": false,
+  "rounded_selection": false,
+  "selection_highlight": false,
+  "reduce_motion": "on",
+  "hide_mouse": "never",
+  "cursor_blink": false,
+  "use_system_prompts": false,
+  "use_system_path_prompts": false,
+  "completions": {
+    "words": "enabled",
+    "lsp_insert_mode": "insert",
+    "lsp": false
+  },
+  "lsp_results_location": "picker",
+  "go_to_definition_scroll_strategy": "top",
+  "go_to_definition_fallback": "none",
+  "linked_edits": false,
+  "enable_language_server": false,
+  "restore_on_file_reopen": false,
+  "scan_symlinks": "always",
+  "file_finder": {
+    "skip_focus_for_active_in_search": false,
+    "file_icons": false,
+    "include_ignored": "all"
+  },
+  "seed_search_query_from_cursor": "never",
+  "search_wrap": false,
+  "pane_split_direction_vertical": "left",
+  "zoomed_padding": false,
+  "bottom_dock_layout": "full",
+  "preview_tabs": {
+    "enable_preview_file_from_code_navigation": false,
+    "enable_preview_from_multibuffer": false,
+    "enable_preview_from_project_panel": false,
+    "enabled": false
+  },
+  "tabs": {
+    "show_diagnostics": "all",
+    "show_close_button": "hover",
+    "close_position": "left"
+  },
+  "tab_bar": {
+    "show_tab_bar_buttons": false,
+    "show_nav_history_buttons": false,
+    "show": false
+  },
+  "title_bar": {
+    "button_layout": "close:minimize,maximize",
+    "show_user_picture": false,
+    "show_user_menu": false,
+    "show_sign_in": false,
+    "show_onboarding_banner": false,
+    "show_project_items": false,
+    "show_worktree_name": false,
+    "show_branch_name": false
+  },
+  "search": {
+    "button": false
+  },
+  "diagnostics": {
+    "lsp_pull_diagnostics": {
+      "enabled": false
+    },
+    "include_warnings": false,
+    "button": false
+  },
+  "status_bar": {
+    "cursor_position_button": false,
+    "active_encoding_button": "enabled",
+    "active_language_button": false
+  },
+  "debugger": {
+    "dock": "left",
+    "button": false,
+    "save_breakpoints": false,
+    "format_dap_log_messages": false,
+    "log_dap_communications": false
+  },
+  "git": {
+    "path_style": "file_path_first",
+    "show_stage_restore_buttons": false,
+    "file_diff": {
+      "show_full_file": false
+    },
+    "branch_picker": {
+      "show_author_name": false
+    },
+    "blame": {
+      "show_avatar": false
+    },
+    "inline_blame": {
+      "enabled": false
+    },
+    "git_gutter": "hide",
+    "disable_git": false,
+    "enable_diff": false,
+    "enable_status": false
+  },
+  "proxy": "",
+  "show_edit_predictions": false,
+  "disable_ai": false,
+  "restore_on_startup": "empty_tab",
+  "default_open_behavior": "new_window",
+  "on_last_window_closed": "quit_app",
+  "when_closing_with_no_tabs": "close_window",
   "session": {
-    "restore_unsaved_buffers": true,
-    "trust_all_worktrees": true
+    "restore_unsaved_buffers": false,
+    "trust_all_worktrees": false
   },
   "telemetry": {
     "diagnostics": false,
@@ -16,20 +208,62 @@
       "type": "registry"
     }
   },
-  "cli_default_open_behavior": "existing_window",
+  "cli_default_open_behavior": "new_window",
   "project_panel": {
+    "auto_open": {
+      "on_drop": false,
+      "on_paste": false,
+      "on_create": false
+    },
+    "sort_order": "upper",
+    "sort_mode": "mixed",
+    "indent_guides": {
+      "show": "never"
+    },
+    "drag_and_drop": false,
+    "sticky_scroll": false,
+    "auto_fold_dirs": false,
+    "button": false,
+    "show_diagnostics": "all",
+    "scrollbar": {
+      "horizontal_scroll": false,
+      "show": "auto"
+    },
+    "bold_folder_labels": false,
+    "starts_open": false,
+    "auto_reveal_entries": false,
+    "git_status": false,
+    "folder_icons": false,
+    "file_icons": false,
+    "entry_spacing": "standard",
     "dock": "left"
   },
   "outline_panel": {
+    "indent_guides": {
+      "show": "never"
+    },
+    "auto_fold_dirs": false,
+    "auto_reveal_entries": false,
+    "git_status": false,
+    "folder_icons": false,
+    "file_icons": false,
+    "button": false,
     "dock": "left"
   },
   "collaboration_panel": {
+    "button": false,
     "dock": "left"
   },
   "git_panel": {
+    "entry_primary_click_action": "file_diff",
+    "diff_stats": false,
+    "folder_icons": false,
+    "group_by": "none",
+    "button": false,
     "dock": "left"
   },
   "edit_predictions": {
+    "allow_data_collection": "no",
     "provider": "zed"
   },
   "icon_theme": "Zed (Default)",
@@ -37,7 +271,19 @@
   "language_servers": ["!eslint"],
   "base_keymap": "Zed",
   "agent": {
-    "dock": "right",
+    "auto_compact": {
+      "enabled": false
+    },
+    "cancel_generation_on_terminal_stop": false,
+    "limit_content_width": false,
+    "flexible": false,
+    "button": false,
+    "notify_when_agent_waiting": "never",
+    "show_merge_conflict_indicator": false,
+    "expand_terminal_card": false,
+    "expand_edit_card": false,
+    "enable_feedback": false,
+    "dock": "left",
     "tool_permissions": {
       "default": "allow"
     },
@@ -48,8 +294,8 @@
       "model": "claude-sonnet-4-6"
     }
   },
-  "format_on_save": "off",
-  "vim_mode": true,
+  "format_on_save": "on",
+  "vim_mode": false,
   "theme": "Noctalia Dark",
   "ui_font_size": 16.5,
   "ui_font_weight": 600.0,
@@ -61,9 +307,23 @@
     "custom": 1.525
   },
   "terminal": {
+    "keep_selection_on_copy": false,
+    "cursor_shape": "bar",
+    "working_directory": {
+      "always": {
+        "directory": "/usr/bin/fish"
+      }
+    },
+    "flexible": false,
+    "dock": "left",
+    "button": false,
+    "scrollbar": {
+      "show": "auto"
+    },
+    "open_links_in_mouse_mode": false,
+    "blinking": "off",
+    "alternate_scroll": "off",
     "font_family": "JetBrainsMono Nerd Font",
-    "shell": {
-      "program": "/usr/bin/fish"
-    }
+    "shell": "system"
   }
 }

@@ -8,3 +8,4 @@ starship init fish | source
 #end
 
 fish_add_path /home/zikuu/.spicetify
+status --is-interactive; and pyenv init - | source
